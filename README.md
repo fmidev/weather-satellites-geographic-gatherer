@@ -15,9 +15,13 @@ To use the container, mount configuration files to `/config` directory
 and place the configuration for `geographic-gatherer.py` to
 `/config/geographic_gatherer.ini`. In addition environment variables
 are read from `/config/env-variables` and the file is thus
-required. The strictly required variables are `TLES` which points to
-the available orbital elements and `ADDRESSES` which is a comma
-separated list of message publishers to connect to.
+required.
+
+The strictly required variables are:
+
+* `TLES` which points to the available orbital elements
+* `ADDRESSES` which is a comma s eparated list of message publishers to connect to.
+* `PUBLISH_PORT` - the port number for the publishet Posttroll messages
 
 Note that `nameserver` usage is disabled and direct port connections
 are used instead.
