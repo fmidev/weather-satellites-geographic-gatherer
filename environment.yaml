@@ -1,0 +1,24 @@
+channels:
+  - conda-forge
+dependencies:
+  - configobj
+  - defusedxml
+  - git
+  - netifaces
+  - numpy
+  - pip
+  - pip:
+    - posttroll==1.10.0
+    - pyorbital
+    - pytroll-collectors==0.16.0
+    - pytroll-schedule==0.7.1
+  - pyresample
+  - python=3.11
+  - pyyaml
+  - pyzmq
+  - requests
+  - s3fs>=2022.8.2
+  - scipy
+  - trollsift=0.5.1
+  - watchdog
+  - zeromq!=4.0.0
