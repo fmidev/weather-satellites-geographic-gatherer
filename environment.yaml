@@ -16,7 +16,7 @@ dependencies:
   - python=3.11
   - pyyaml
   - pyzmq
-  - requests
+  - requests>=2.32.0
   - s3fs>=2022.8.2
   - scipy
   - trollsift=0.5.1
