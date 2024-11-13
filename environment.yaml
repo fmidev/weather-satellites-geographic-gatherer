@@ -11,7 +11,7 @@ dependencies:
   - pip:
     - posttroll==1.11.0
     - pyorbital==1.8.3
-    - pytroll-collectors==0.16.0
+    - pytroll-collectors==0.17.0
     - pytroll-schedule==0.7.1
   - pyresample==1.30.0
   - python=3.12
