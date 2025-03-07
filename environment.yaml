@@ -8,7 +8,7 @@ dependencies:
   - numpy
   - pip
   - pip:
-    - posttroll==1.11.0
+    - posttroll==1.12.0
     - pyorbital==1.8.3
     - pytroll-collectors==0.17.0
     - pytroll-schedule==0.7.1
