@@ -4,7 +4,6 @@ dependencies:
   - aiohttp>=3.10.2
   - configobj
   - defusedxml
-  - git
   - netifaces
   - numpy
   - pip
