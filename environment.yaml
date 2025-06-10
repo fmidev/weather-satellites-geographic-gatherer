@@ -2,7 +2,7 @@ channels:
   - conda-forge
 dependencies:
   - aiohttp>=3.10.2
-  - botocore<1.36
+  - botocore
   - configobj
   - defusedxml
   - netifaces
@@ -12,8 +12,8 @@ dependencies:
     - posttroll==1.12.1
     - pyorbital==1.9.2
     - pytroll-collectors==0.17.0
-    - pytroll-schedule==0.7.1
-  - pyresample==1.33.0
+    - pytroll-schedule==0.7.3
+  - pyresample==1.34.2
   - python=3.12
   - pyyaml
   - pyzmq
