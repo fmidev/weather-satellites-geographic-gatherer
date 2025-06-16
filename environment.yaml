@@ -10,9 +10,9 @@ dependencies:
   - pip
   - pip:
     - posttroll==1.12.1
-    - pyorbital==1.9.2
+    - pyorbital==1.10.2
     - pytroll-collectors==0.17.0
-    - pytroll-schedule==0.7.3
+    - pytroll-schedule==0.7.5
   - pyresample==1.34.2
   - python=3.12
   - pyyaml
