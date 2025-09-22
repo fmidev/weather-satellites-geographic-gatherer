@@ -11,7 +11,7 @@ dependencies:
   - pip:
     - posttroll==1.12.1
     - pyorbital==1.10.2
-    - pytroll-collectors==0.17.0
+    - pytroll-collectors==0.20.0
     - pytroll-schedule==0.7.5
   - pyresample==1.34.2
   - python=3.13
@@ -20,7 +20,7 @@ dependencies:
   - requests>=2.32.0
   - s3fs>=2025.3.0
   - scipy
-  - trollsift=0.5.3
+  - trollsift=0.6.0
   - urllib3>=2.2.2
   - watchdog
   - zeromq!=4.0.0
