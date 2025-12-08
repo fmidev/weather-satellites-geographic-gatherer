@@ -1,7 +1,7 @@
 channels:
   - conda-forge
 dependencies:
-  - aiohttp>=3.10.2
+  - aiohttp>=3.13.2
   - botocore
   - configobj
   - defusedxml
@@ -9,18 +9,18 @@ dependencies:
   - numpy
   - pip
   - pip:
-    - posttroll==1.12.1
-    - pyorbital==1.10.2
+    - posttroll==1.13.1
+    - pyorbital==1.11.0
     - pytroll-collectors==0.20.0
     - pytroll-schedule==0.7.5
-  - pyresample==1.34.2
+  - pyresample==1.35.0
   - python=3.13
   - pyyaml
   - pyzmq
-  - requests>=2.32.0
-  - s3fs>=2025.3.0
+  - requests>=2.32.5
+  - s3fs>=2025.12.0
   - scipy
-  - trollsift=0.6.0
-  - urllib3>=2.2.2
+  - trollsift=1.0.0
+  - urllib3>=2.6.0
   - watchdog
   - zeromq!=4.0.0
