@@ -7,20 +7,22 @@ dependencies:
   - defusedxml
   - netifaces
   - numpy
+  - pandas
+  - pyogrio
   - pip
   - pip:
-    - posttroll==1.15.0
-    - pyorbital==1.12.1
-    - pytroll-collectors==0.21.0
+    - posttroll==1.16.0
+    - pyorbital==1.13.0
+    - pytroll-collectors==0.22.0
     - pytroll-schedule==0.7.5
   - pyresample==1.35.0
-  - python=3.13
+  - python=3.14
   - pyyaml
   - pyzmq
   - requests>=2.32.5
   - s3fs>=2026.4.0
   - scipy
-  - trollsift=1.0.0
+  - trollsift=1.0.1
   - urllib3>=2.6.0
   - watchdog
   - zeromq!=4.0.0
